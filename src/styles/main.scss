@@ -1,7 +1,6 @@
-@import "tailwindcss";
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+@import "bootstrap-icons/font/bootstrap-icons";
 
 * {
-  padding: 0;
-  margin: 0;
   letter-spacing: 1px;
 }
