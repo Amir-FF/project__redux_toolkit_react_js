@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { ROUTES } from "../constants/routes";
-import PageTitle from "../common/PageTitle";
+import PageTitle from "../components/common/PageTitle";
 
 const NotFoundPage = () => (
   <>

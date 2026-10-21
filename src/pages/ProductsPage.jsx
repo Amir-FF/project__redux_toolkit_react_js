@@ -1,6 +1,8 @@
+import Cards from "../components/products/Cards";
+
 const ProductsPage = () => (
   <>
-    <h1>hello would</h1>
+    <Cards />
   </>
 );
 

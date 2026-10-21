@@ -5,7 +5,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import HomePage from "./pages/HomePage";
 import MainLayout from "./layouts/MainLayout";
 import ProductsPage from "./pages/ProductsPage";
-import CartPage from "./pages/CartPage";
+import TotalPage from "./pages/TotalPage";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route element={<MainLayout />}>
             <Route path={ROUTES.home} element={<HomePage />} />
             <Route path={ROUTES.products} element={<ProductsPage />} />
-            <Route path={ROUTES.cart} element={<CartPage />} />
+            <Route path={ROUTES.total} element={<TotalPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>
