@@ -152,3 +152,6 @@ Helpers in `tests/test-utils.jsx`:
 - The header badge shows the number of **distinct products** in the cart (`cart.length`), not the sum of quantities.
 - Prices are displayed as plain numbers without a currency symbol.
 - Product descriptions and the home page text are placeholder Lorem Ipsum.
+
+## 🚀 Live Demo
+You can view the live version of this project here: [**View Live Site**](https://project-redux-toolkit-react-js.amir-computer-04-ir.workers.dev/)
